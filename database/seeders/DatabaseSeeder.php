@@ -18,5 +18,19 @@ class DatabaseSeeder extends Seeder
         //     'name' => 'Test User',
         //     'email' => 'test@example.com',
         // ]);
+
+        \App\Models\Sauce::create(
+            [
+                'userId' => 1,
+                'name' => 'Sauce',
+                'manufacturer' => 'Sauceur',
+                'description' => 'Bonne sauce',
+                'mainPepper' => 'piment',
+                'imageUrl' => 'sauceTabasco.jpg',
+                'heat' => 5,
+                'likes' => 0,
+                'dislikes' => 0
+            ]
+            );
     }
 }

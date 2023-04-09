@@ -16,6 +16,9 @@
                             @method('DELETE')
                             <button type="submit" class="btn btn-danger">Supprimer</button>
                         </form>
+                        
+                        <a href="{{ route('sauces.modif') }}" class="btn btn-info">Modifier</a>
+
                     </div>
                 </div>
             </div>

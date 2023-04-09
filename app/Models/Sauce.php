@@ -9,6 +9,8 @@ class Sauce extends Model
 {
     use HasFactory;
 
+    public $timestamps = false;
+
      protected $fillable = [
         'userId',
         'name',
